@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  padding: 10px;
+  background: rgb(231, 203, 203);
+}
+
+/* Style the header */
+.header {
+  background-color: #FFDFDC;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1{
+  border: 5px solid black;
+  width: 98%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  border: 3px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #CDADAA;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+  .centre {
+    margin: 4em;
+    width: 50%;
+    height: 20%;
+    border: 3px solid black;
+    padding: 1px;
+    text-align-last: center;
+  }
+
+  h2 {
+    padding: 5px;
+    margin: 10px;
+
+  }
+
+  #Div1 {
+    text-align: left;
+    border: 3px solid black;
+    width: 90%;
+    height: 100%;
+    padding: 15px 50px 15px 25px;
+    margin: 10px 20px;
+  }
+
+  #l1 {
+    border: 3px solid black;
+    width: 100%;
+
+  }
+
+  #l2 {
+    border: 3px solid black;
+    width: 100%;
+  }
+
+  #l3 {
+    border: 3px solid black;
+    width: 100%;
+  }
+
+  #l4 {
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+  }
+
+  #fname {
+    width: 85%;
+  }
+
+  #email {
+    width: 85%;
+  }
+
+  #message {
+    width: 100%;
+    height: 200%;
+  }
+
+  .gen {
+    float: right;
+  }
+
+  .submit {
+    background-color: #CDADAA;
+    color: black;
+    text-align: center;
+    padding: 10px;
+
+  }

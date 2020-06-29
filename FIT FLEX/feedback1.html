@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FIT FLEX</title>
+  <link rel="stylesheet"href="style/feedback1.css" type="text/css"/>
+</head>
+
+<div class="header">
+  <h1> FIT FLEX </h1>
+</div>
+
+<div class="topnav">
+  <a href="index1.html">Home</a>
+  <a href="exercise.html">Type of exercise</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <div class="card">
+    <a href="what.html" style="font-weight: bolder; text-decoration:none; color: black;">
+    <h3>Exercises</h3>
+    </a>
+    <ul>
+      <li> What is exercises?</li><br>
+      <li> How many hours do I need to spend?</li><br>
+    </ul>
+  </div>
+    <br>
+    <div class="card">
+    <h3>BMI CHART</h3>
+    Check out your BMI here <br><br>
+    <a href="bmi.html">
+    <img src="photo/chartt.png" alt="Bmi chart"width= 150 height=100>
+  </a>
+  </div>
+  </div>
+
+  <div class="column middle">
+    <div class="card">
+      <fieldset>
+        <div class="centre">
+        <h2> FEEDBACK FORM </h2>
+        </div>
+        <form method="GET" id="my_form"></form>
+        <fieldset id="Div1">
+                  <fieldset id="l1">
+                    <label for="fname"><b>NAME:</b></label><input type="text" id="fname" name="fname">
+                  </fieldset>
+                  <br>
+                  <fieldset id="l2">
+                    <label for="age"><b>AGE:</b></label>
+                    <input type="text" id="age" age="age">
+                    <div class="gen">
+                    <label for="gender"><b>GENDER:</b></label>
+                    <select id="gender" gender="gender">
+                      <option value="female">Female</option>
+                      <option value="male">Male</option>
+                    </select>
+                  </div>
+                  </fieldset>
+                  <br>
+                  <fieldset id="l3">
+                    <label for="email"><b>EMAIL:</b></label><input type="email" id="email" name="email">
+                  </fieldset>
+                  <br>
+                  <fieldset id="l4">
+                    <label for="message"><b>MESSAGE:</b></label>
+                    <br><input type="text" id="message" name="message">
+                  </fieldset>
+                  <br>
+                  <input type="submit" value="SUBMIT" style="float: right;" class="submit">
+        </fieldset>
+      </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <div class="column side">
+    <div class="card">
+      <h3>CONTACT US</h3>
+      <ul>
+        <li> Phone Number<br>
+              011-1234567</li><br>
+        <li> Email
+          ayana@gmail.com</li>
+    </div>
+    <br>
+    <div class="card">
+    <h3>Want to submit another feedback?</h3>
+    <p>Click here.</p>
+    <button class="button" onclick="location.href='feedback1.html'" type="button">Feedback form</button>
+    </div>
+  </div>
+</div>
+  </html>

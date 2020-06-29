@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(231, 203, 203);
+    font-family:   'Arial Narrow Bold', sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #FFDFDC;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1{
+  border: 5px solid black;
+  width: 98%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+h2{ border: solid black 3px ;
+    border-radius: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: whitesmoke;
+
+
+
+    }
+
+    .imj{border: 3px solid black;
+        border-radius: 10px;
+        display: block;
+        width: 50%;
+        height: 75%;
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      background-color: whitesmoke;
+
+    }
+
+
+
+    .div1, .p1{
+
+        border: 3px solid black;
+        border-radius: 10px;
+        position: absolute;
+        width: 20%;
+        top: 200px;
+        left: 10px;
+        padding: 20PX;
+        text-align: justify;
+        background-color: whitesmoke;
+
+    }
+
+
+    .icon{float: left;
+    margin-right: 15px;
+
+    }
+    .div2, .p2{ border: 3px solid black;
+        border-radius: 10px;
+        position: absolute;
+        width: 20%;
+        top: 200px;
+        right: 10px;
+        padding: 20PX;
+        background-color: whitesmoke;
+       }
+       .calicon{ float:right;}
+
+
+      .p1, .p2{top: 450px;
+        font-weight: bolder;
+
+    }
+
+    .footer {
+      padding: 1px;
+      margin: 10px;
+      background: black;
+      color: white;
+      text-align: center;
+    }
